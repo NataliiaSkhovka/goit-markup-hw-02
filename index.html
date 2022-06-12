@@ -27,10 +27,10 @@
 				<ul class="header-list link">
 					<li class="header-list-item"><a class="header-link link" href="./index.html">Студия</a></li>
 					<li class="header-list-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-					<li class="header-list-item"><a class="header-link link" href="/">Контакты</a></li>
+					<li class="header-list-item"><a class="header-link link" href="">Контакты</a></li>
 				</ul>
 			</nav>
-			<ul>
+			<ul class="link">
 				<li>
 					<a class="head-cont head-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
@@ -42,35 +42,43 @@
 		<main>
 			<!--Секція замовлення послуг-->
 			<section>
-				<h1>Эффективные решения для вашего бизнеса</h1>
-				<button class="hero-btm" type="button">Заказать услугу</button>
+				<div class="main-section">
+					<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+					<button class="main-btn" type="button">Заказать услугу</button>
+				</div>
 			</section>
 			<!--Секція опис-->
 			<section>
 				<h2 hidden>Преимущества</h2>
-				<ul class="link">
+				<ul class="main-benefits link">
 					<li>
-						<h3>Внимание к деталям</h3>
-						<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+						<h3 class="point-benefits">Внимание к деталям</h3>
+						<p class="text-benefits">
+							Идейные соображения, а также начало повседневной работы по формированию позиции.
+						</p>
 					</li>
 					<li>
-						<h3>Пунктуальность</h3>
-						<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+						<h3 class="point-benefits">Пунктуальность</h3>
+						<p class="text-benefits">
+							Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+						</p>
 					</li>
 					<li>
-						<h3>Планирование</h3>
-						<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+						<h3 class="point-benefits">Планирование</h3>
+						<p class="text-benefits">
+							Равным образом консультация с широким активом в значительной степени обуславливает.
+						</p>
 					</li>
 					<li>
-						<h3>Современные технологии</h3>
-						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+						<h3 class="point-benefits">Современные технологии</h3>
+						<p class="text-benefits">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
 			</section>
 
 			<!--Секція чим займаємось-->
 			<section>
-				<h2>Чем мы занимаемся</h2>
+				<h2 class="title text-title">Чем мы занимаемся</h2>
 				<ul class="link">
 					<li>
 						<img src="./images/sozdaniesaita.jpg" alt="создание сайта" width="370" height="294" />
@@ -84,27 +92,27 @@
 
 			<!--Наша команда-->
 			<section>
-				<h2>Наша команда</h2>
+				<h2 class="title text-title">Наша команда</h2>
 				<ul class="link">
-					<li>
+					<li class="team">
 						<img src="./images/Igor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-						<h3>Игорь Демьяненко</h3>
-						<p>Product Designer</p>
+						<h3 class="name-team">Игорь Демьяненко</h3>
+						<p lang="en-us" class="job-team">Product Designer</p>
 					</li>
-					<li>
+					<li class="team">
 						<img src="./images/Olga.jpg" alt="Ольга Репина" width="270" height="260" />
-						<h3>Ольга Репина</h3>
-						<p>Frontend Developer</p>
+						<h3 class="name-team">Ольга Репина</h3>
+						<p lang="en-us" class="job-team">Frontend Developer</p>
 					</li>
-					<li>
+					<li class="team">
 						<img src="./images/Nikolay.jpg" alt="Николай Тарасов" width="270" height="260" />
-						<h3>Николай Тарасов</h3>
-						<p>Marketing</p>
+						<h3 class="name-team">Николай Тарасов</h3>
+						<p lang="en-us" class="job-team">Marketing</p>
 					</li>
-					<li>
+					<li class="team">
 						<img src="./images/Mihail.jpg" alt="Михаил Ермаков" width="270" height="260" />
-						<h3>Михаил Ермаков</h3>
-						<p>UI Designer</p>
+						<h3 class="name-team">Михаил Ермаков</h3>
+						<p lang="en-us" class="job-team">UI Designer</p>
 					</li>
 				</ul>
 			</section>
@@ -113,7 +121,7 @@
 		<footer class="footer">
 			<a class="main-logo link" href="./index.html" aria-label="Посилання на студію" lang="en-us">
 				Web
-				<span class="web-logo">Studio</span>
+				<span class="web-footer-logo">Studio</span>
 			</a>
 			<address>
 				<ul class="link">
