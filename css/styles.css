@@ -28,9 +28,24 @@ body {
 .web-logo {
 	color: #292929;
 }
-
 .hero {
 	background-color: #e5e5e5;
+}
+.main-section {
+	background-color: #2f303a;
+}
+.main-title {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	/* or 136% */
+
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 .hero-btn {
 	color: var(--accent-button-color);
@@ -48,7 +63,51 @@ body {
 	background-color: var(--hero-button-active);
 	cursor: pointer;
 }
-
+.point-benefits {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+.text-benefits {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.text-title {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+.team {
+	font-family: var(--main-font);
+	font-style: normal;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.name-tem {
+	font-weight: 500;
+	color: #212121;
+}
+.job-team {
+	font-weight: 400;
+	color: #757575;
+}
 .img {
 	width: 370px;
 	height: 294px;
