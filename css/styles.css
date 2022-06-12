@@ -1,6 +1,7 @@
 :root {
+	--main-font: "Roboto";
+	--secondary-font: "Raleway";
 	--accent-bgr-color: #e5e5e5;
-	--accent-bgr-btm: #2196f3;
 	--accent-button-color: #ffffff;
 	--hero-button-active: #2196f3;
 }
@@ -32,7 +33,7 @@
 }
 .hero-btm {
 	color: var(--accent-button-color);
-	background-color: var(--accent-bgr-color);
+	background-color: #2196f3;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -63,7 +64,20 @@
 	font-weight: 700;
 	color: #212121;
 }
-.head-cont {
+.header-list-item {
+	position: absolute;
+	width: 68px;
+	height: 16px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+.header-list-item:hover,
+.header-list-item:focus .head-cont {
 	position: absolute;
 	height: 16px;
 	font-family: "Roboto";
@@ -80,4 +94,17 @@
 .head-tel {
 	width: 122px;
 	color: #757575;
+}
+.foot-cont {
+	position: absolute;
+	width: 231px;
+	height: 21px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
 }
