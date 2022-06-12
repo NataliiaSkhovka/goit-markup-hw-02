@@ -1,0 +1,30 @@
+.hero{
+  background-color: #E5E5E5;
+}
+.hero-list-list{
+
+}
+.img{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 262px;
+background: url(portfolio1.jpg);
+}
+.title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+color: #212121;
+}
+position: absolute;
+width: 322px;
+height: 36px;
+left: 239px;
+top: 576px;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
