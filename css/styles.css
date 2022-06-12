@@ -9,25 +9,19 @@
 	text-decoration: none;
 	list-style: none;
 }
-.header-logo {
+.main-logo {
 	display: flex;
-	font-family: Raleway, sans-serif;
-	color: #2196f3;
-	font-size: 26px;
-	line-height: 1.19;
-}
-.weblogo {
-	color: #292929;
-}
-.header-logo {
-	font-family: "Raleway";
-	font-style: normal;
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: #2196f3;
 }
+.web-logo {
+	color: #292929;
+}
+
 .hero {
 	background-color: #e5e5e5;
 }
@@ -94,6 +88,9 @@
 .head-tel {
 	width: 122px;
 	color: #757575;
+}
+.foot-adr {
+	color: #ffffff;
 }
 .foot-cont {
 	position: absolute;
