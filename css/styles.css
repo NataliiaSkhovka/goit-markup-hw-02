@@ -5,7 +5,10 @@
 	--accent-button-color: #ffffff;
 	--hero-button-active: #2196f3;
 }
-
+body {
+	font-family: var(--main-font);
+	font-size: 14px;
+}
 .header {
 	background-color: #ffffff;
 }
@@ -105,6 +108,31 @@
 	color: #212121;
 	background-color: #f5f4fa;
 	border: none;
+}
+.bond-port {
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
+}
+.title-port {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.text-portfolio {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.footer {
+	background-color: #2f303a;
 }
 .foot-adr {
 	color: #ffffff;
