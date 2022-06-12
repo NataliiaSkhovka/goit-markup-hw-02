@@ -5,6 +5,10 @@
 	--accent-button-color: #ffffff;
 	--hero-button-active: #2196f3;
 }
+
+.header {
+	background-color: #ffffff;
+}
 .link {
 	text-decoration: none;
 	list-style: none;
@@ -25,25 +29,23 @@
 .hero {
 	background-color: #e5e5e5;
 }
-.hero-btm {
+.hero-btn {
 	color: var(--accent-button-color);
 	background-color: #2196f3;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.875;
-	/* align-items: center;
-    text-align: center; */
 	letter-spacing: 0.06em;
+	border: none;
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
 	color: var(--accent-button-color);
 	background-color: var(--hero-button-active);
 	cursor: pointer;
 }
-.hero-list-list {
-}
+
 .img {
 	position: absolute;
 	width: 370px;
@@ -62,7 +64,7 @@
 	position: absolute;
 	width: 68px;
 	height: 16px;
-	font-family: "Roboto";
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -74,7 +76,7 @@
 .header-list-item:focus .head-cont {
 	position: absolute;
 	height: 16px;
-	font-family: "Roboto";
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -88,6 +90,21 @@
 .head-tel {
 	width: 122px;
 	color: #757575;
+}
+.btn-port {
+	position: absolute;
+	width: 84px;
+	height: 26px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background-color: #f5f4fa;
+	border: none;
 }
 .foot-adr {
 	color: #ffffff;
