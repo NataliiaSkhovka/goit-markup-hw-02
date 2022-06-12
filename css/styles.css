@@ -77,7 +77,6 @@ body {
 	color: #ffffff;
 }
 .main-btn {
-	position: absolute;
 	color: var(--accent-button-color);
 	background-color: #2196f3;
 	font-family: inherit;
