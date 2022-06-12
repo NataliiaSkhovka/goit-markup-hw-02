@@ -63,7 +63,7 @@
 	font-weight: 700;
 	color: #212121;
 }
-.h-cont {
+.head-cont {
 	position: absolute;
 	height: 16px;
 	font-family: "Roboto";
@@ -73,11 +73,11 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
-.header-mail {
+.head-mail {
 	width: 135px;
 	color: #2196f3;
 }
-.header-tel {
+.head-tel {
 	width: 122px;
 	color: #757575;
 }
