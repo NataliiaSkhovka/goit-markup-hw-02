@@ -3,7 +3,10 @@
 	--accent-button-color: #2196f3;
 	--hero-button-active: ;
 }
-
+.link {
+	text-decoration: none;
+	list-style: none;
+}
 .header-logo {
 	display: flex;
 	font-family: Raleway, sans-serif;
