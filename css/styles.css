@@ -9,6 +9,7 @@ body {
 	font-family: var(--main-font);
 	font-size: 14px;
 }
+/*Header*/
 .header {
 	background-color: #ffffff;
 }
@@ -27,99 +28,6 @@ body {
 }
 .web-logo {
 	color: #292929;
-}
-.hero {
-	background-color: #e5e5e5;
-}
-.main-section {
-	background-color: #2f303a;
-}
-.main-title {
-	font-family: var(--main-font);
-	font-style: normal;
-	font-weight: 900;
-	font-size: 44px;
-	line-height: 1.4;
-	/* or 136% */
-
-	text-align: center;
-	letter-spacing: 0.06em;
-	text-transform: uppercase;
-	color: #ffffff;
-}
-.hero-btn {
-	color: var(--accent-button-color);
-	background-color: #2196f3;
-	font-family: inherit;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.875;
-	letter-spacing: 0.06em;
-	border: none;
-}
-.hero-btn:hover,
-.hero-btn:focus {
-	color: var(--accent-button-color);
-	background-color: var(--hero-button-active);
-	cursor: pointer;
-}
-.point-benefits {
-	font-family: var(--main-font);
-	font-style: normal;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #212121;
-}
-.text-benefits {
-	font-family: var(--main-font);
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	/* or 171% */
-	letter-spacing: 0.03em;
-	color: #757575;
-}
-.text-title {
-	font-family: var(--main-font);
-	font-style: normal;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.16;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: #212121;
-}
-.team {
-	font-family: var(--main-font);
-	font-style: normal;
-	line-height: 1.18;
-	text-align: center;
-	letter-spacing: 0.03em;
-}
-.name-tem {
-	font-weight: 500;
-	color: #212121;
-}
-.job-team {
-	font-weight: 400;
-	color: #757575;
-}
-.img {
-	width: 370px;
-	height: 294px;
-	left: 215px;
-	top: 262px;
-	background: url(portfolio1.jpg);
-}
-.title {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 700;
-	color: #212121;
 }
 .header-list-item {
 	width: 68px;
@@ -150,6 +58,100 @@ body {
 	width: 122px;
 	color: #757575;
 }
+/*Main page*/
+.hero {
+	background-color: #e5e5e5;
+}
+.main-section {
+	background-color: #2f303a;
+}
+.main-title {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.main-btn {
+	color: var(--accent-button-color);
+	background-color: #2196f3;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.06em;
+	border: none;
+}
+.main-btn:hover,
+.main-btn:focus {
+	color: var(--accent-button-color);
+	background-color: var(--hero-button-active);
+	cursor: pointer;
+}
+.point-benefits {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+.text-benefits {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.text-title {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+.team {
+	font-family: var(--main-font);
+	font-style: normal;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.name-tem {
+	font-weight: 500;
+	color: #212121;
+}
+.job-team {
+	font-weight: 400;
+	color: #757575;
+}
+.img {
+	width: 370px;
+	height: 294px;
+	left: 215px;
+	top: 262px;
+	background: url(portfolio1.jpg);
+}
+.title {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	color: #212121;
+}
+/*Portfolio*/
 .btn-port {
 	width: 84px;
 	height: 26px;
@@ -163,6 +165,12 @@ body {
 	color: #212121;
 	background-color: #f5f4fa;
 	border: none;
+}
+.btn-port:hover,
+.btn-port:focus {
+	color: var(--accent-button-color);
+	background-color: var(--hero-button-active);
+	cursor: pointer;
 }
 .bond-port {
 	background-color: #ffffff;
@@ -186,6 +194,7 @@ body {
 	letter-spacing: 0.03em;
 	color: #757575;
 }
+/*Footer*/
 .footer {
 	background-color: #2f303a;
 }
