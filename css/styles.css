@@ -1,7 +1,8 @@
 :root {
 	--accent-bgr-color: #e5e5e5;
-	--accent-button-color: #2196f3;
-	--hero-button-active: ;
+	--accent-bgr-btm: #2196f3;
+	--accent-button-color: #ffffff;
+	--hero-button-active: #2196f3;
 }
 .link {
 	text-decoration: none;
@@ -62,13 +63,21 @@
 	font-weight: 700;
 	color: #212121;
 }
-position: absolute;
-width: 322px;
-height: 36px;
-left: 239px;
-top: 576px;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.06em;
+.h-cont {
+	position: absolute;
+	height: 16px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-mail {
+	width: 135px;
+	color: #2196f3;
+}
+.header-tel {
+	width: 122px;
+	color: #757575;
+}
