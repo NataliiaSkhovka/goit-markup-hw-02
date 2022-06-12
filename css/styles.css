@@ -3,7 +3,7 @@
 	--secondary-font: "Raleway";
 	--accent-bgr-color: #e5e5e5;
 	--accent-button-color: #ffffff;
-	--hero-button-active: #2196f3;
+	--accent-color: #2196f3;
 }
 body {
 	font-family: var(--main-font);
@@ -90,7 +90,7 @@ body {
 .main-btn:hover,
 .main-btn:focus {
 	color: var(--accent-button-color);
-	background-color: var(--hero-button-active);
+	background-color: var(--accent-color);
 	cursor: pointer;
 }
 .point-benefits {
@@ -121,6 +121,9 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #212121;
+}
+.team-seaction {
+	background-color: #f5f4fa;
 }
 .team {
 	font-family: var(--main-font);
@@ -170,7 +173,7 @@ body {
 .btn-port:hover,
 .btn-port:focus {
 	color: var(--accent-button-color);
-	background-color: var(--hero-button-active);
+	background-color: var(--accent-color);
 	cursor: pointer;
 }
 .bond-port {
@@ -212,6 +215,10 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
+}
+.foot-cont:hover,
+.foot-cont:focus {
+	color: var(--accent-color);
 }
 .web-footer-logo {
 	color: #ffffff;
