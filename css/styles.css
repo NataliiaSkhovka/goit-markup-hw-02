@@ -45,6 +45,9 @@ body {
 	letter-spacing: 0.02em;
 	height: 16px;
 }
+.header-link {
+	color: var(--secondary-text-color);
+}
 .header-link:hover,
 .header-link:focus {
 	color: var(--primery-white-color);
